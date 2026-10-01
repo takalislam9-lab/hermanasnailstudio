@@ -64,6 +64,12 @@
   .section-head p{margin-top:14px;color:#6b5c50;font-weight:300;line-height:1.7;}
 
   .services{background:var(--cream);}
+  .why{background:var(--cream);}
+  .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:26px;max-width:1150px;margin:0 auto;}
+  .why-card{background:var(--paper);padding:36px 28px;border-radius:18px;text-align:center;box-shadow:0 20px 45px -28px rgba(58,47,40,.2);}
+  .why-card .icon{width:56px;height:56px;border-radius:50%;margin:0 auto 18px;background:var(--cream);display:flex;align-items:center;justify-content:center;color:var(--brown-dark);}
+  .why-card h3{font-size:1.05rem;margin-bottom:10px;}
+  .why-card p{font-size:.85rem;color:#8a7a6d;line-height:1.6;font-weight:300;}
   .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:26px;max-width:1150px;margin:0 auto;}
   .service-card{background:var(--paper);padding:40px 30px;border-radius:18px;text-align:center;box-shadow:0 20px 45px -28px rgba(58,47,40,.2);}
   .service-icon{width:64px;height:64px;border-radius:50%;margin:0 auto 20px;background:var(--cream);display:flex;align-items:center;justify-content:center;color:var(--brown-dark);}
@@ -188,9 +194,38 @@
       <figcaption>Nuestro estudio en Alcobendas</figcaption>
     </figure>
     <figure>
-      <img src="hermanas2.jpg" alt="Manicura realizada en Hermanas Nail Studio">
-      <figcaption>Manicura de acabado natural</figcaption>
+      <img src="hermanas3.jpg" alt="Diseño de uñas floral realizado en Hermanas Nail Studio">
+      <figcaption>Diseños hechos a mano, uno a uno</figcaption>
     </figure>
+  </div>
+</section>
+
+<section class="why">
+  <div class="section-head">
+    <span class="eyebrow">Por qué elegirnos</span>
+    <h2>Confianza y detalle</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div>
+      <h3>5,0 en Google</h3>
+      <p>Más de 190 reseñas reales nos avalan.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
+      <h3>Diseños únicos</h3>
+      <p>Arte hecho a mano alzada, adaptado a ti.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+      <h3>Materiales de calidad</h3>
+      <p>Productos de calidad para un acabado duradero.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+      <h3>En Alcobendas</h3>
+      <p>Fácil acceso, en C. de Juan Ramón Jiménez.</p>
+    </div>
   </div>
 </section>
 
